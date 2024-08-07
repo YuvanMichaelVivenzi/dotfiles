@@ -23,7 +23,7 @@
 			"default": ""
         },
         "persistent-workspaces": {
-            "*": 5
+            "*": 1
         }       
     },
 
@@ -51,6 +51,7 @@
         "rewrite": {
             "(.*) - Brave": "$1",
             "(.*) - Chromium": "$1",
+	    "(.*) - Firefox": "$1",
             "(.*) - Brave Search": "$1",
             "(.*) - Outlook": "$1",
             "(.*) Microsoft Teams": "$1"
@@ -97,6 +98,23 @@
         "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/scripts/installupdates.sh",
         "on-click-right": "~/dotfiles/.settings/software.sh"
     },
+
+    // Music
+    "custom/music": {
+        "format": "𝅘𝅥𝅮    {}",
+        "return-type": "bash",
+        "exec": "playerctl metadata --format '{{title}} - {{artist}}'",
+        "restart-interval": 1,
+        "on-click": "audacious -p -H -q ~/Music/"
+    },
+
+     // Audio-Visualizer
+     "custom/audiovisualizer": {
+ 	    "format": " {} ",
+ 	    "return-type": "json",
+ 	    "exec": "./caway/caway",
+ 	    "restart-interval": 1
+     },
     
     // Wallpaper
     "custom/wallpaper": {
@@ -212,7 +230,7 @@
 
     // Clock
     "clock": {
-        "format": "{:%H:%M %a}",
+        "format": "{:%H:%M - %Od.%Om.%Y}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
@@ -271,7 +289,7 @@
     "group/links": {
         "orientation": "horizontal",
         "modules": [
-            "custom/chatgpt",
+//            "custom/chatgpt",
             "custom/empty"
         ]
     },

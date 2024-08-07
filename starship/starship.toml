@@ -13,6 +13,9 @@ diverged = "<>"
 renamed = "r"
 deleted = "x"
 
+[battery]
+disabled = true
+
 [aws]
 symbol = "aws "
 

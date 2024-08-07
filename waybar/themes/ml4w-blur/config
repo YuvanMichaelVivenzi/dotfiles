@@ -26,34 +26,36 @@
 
     // Modules Left
     "modules-left": [
-        "custom/appmenu",
-        "group/links",
-        "group/settings",
+        //"custom/appmenu",
+        //"group/links",
+        //"group/settings",
         //"wlr/taskbar",
-        "group/quicklinks",
-        "hyprland/window",
+        //"group/quicklinks",
+        "hyprland/workspaces",
+        "custom/music",
+	//"custom/audiovisualizer",
         "custom/empty"
     ],
 
     // Modules Center
     "modules-center": [
-        "hyprland/workspaces"
+        "hyprland/window"
     ],
 
     // Modules Right    
     "modules-right": [
         "custom/updates",
         "pulseaudio",
-        "bluetooth",
-        "battery", 
+        //"bluetooth",
+        //"battery", 
         "network",
         "group/hardware",
-        "custom/cliphist",
-        "custom/hypridle",
-        "custom/hyprshade",
+        //"custom/cliphist",
+        //"custom/hypridle",
+        //"custom/hyprshade",
         "tray",
-        "custom/exit",
-        "custom/ml4w-welcome",
+        //"custom/exit",
+        //"custom/ml4w-welcome",
         "clock"
     ]
 }

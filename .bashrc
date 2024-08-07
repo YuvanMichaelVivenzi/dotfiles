@@ -4,7 +4,7 @@
 #  _| |_) | (_| \__ \ | | | | | (__ 
 # (_)_.__/ \__,_|___/_| |_|_|  \___|
 # 
-# by Stephan Raabe (2023)
+# by Yuvan Michael Vivenzi (YMV) (2024)
 # -----------------------------------------------------
 # ~/.bashrc
 # -----------------------------------------------------
@@ -15,6 +15,25 @@ PS1='[\u@\h \W]\$ '
 
 # Define Editor
 export EDITOR=nvim
+
+# -----------------------------------------------------
+# MY CUSTOM ALIASES
+# -----------------------------------------------------
+alias install='sudo pacman --needed -S '
+alias install-aur='yay --needed -S '
+alias uninstall='sudo pacman -R '
+alias remove='sudo pacman -R '
+alias uninstall-aur='yay -R '
+alias remove-aur='yay -R '
+alias upd='sudo pacman -Syu && yay -Syu'
+alias update='sudo pacman -Syu && yay -Syu'
+alias search='sudo pacman -Ss '
+alias search-aur='yay -Ss '
+alias get='git clone '
+alias musicinfo='playerctl metadata --format "{{title}} - {{artist}}"'
+alias ytspamblock='./ytspamblockpy.sh'
+alias netcheck='ping google.com'
+alias train='sl '
 
 # -----------------------------------------------------
 # ALIASES
@@ -35,7 +54,7 @@ alias wifi='nmtui'
 alias od='~/private/onedrive.sh'
 alias rw='~/dotfiles/waybar/reload.sh'
 alias winclass="xprop | grep 'CLASS'"
-alias dot="cd ~/dotfiles"
+alias dot="cd ~/dotfiles/"
 alias cleanup='~/dotfiles/scripts/cleanup.sh'
 
 # -----------------------------------------------------
@@ -48,7 +67,6 @@ alias ml4w-hyprland='~/dotfiles/apps/ML4W_Hyprland_Settings-x86_64.AppImage'
 alias ml4w-diagnosis='~/dotfiles/hypr/scripts/diagnosis.sh'
 alias ml4w-hyprland-diagnosis='~/dotfiles/hypr/scripts/diagnosis.sh'
 alias ml4w-qtile-diagnosis='~/dotfiles/qtile/scripts/diagnosis.sh'
-alias ml4w-update='~/dotfiles/update.sh'
 
 # -----------------------------------------------------
 # Window Managers
@@ -117,6 +135,19 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 # -----------------------------------------------------
 alias dotsync="~/dotfiles-versions/dotfiles/.dev/sync.sh dotfiles"
 
+# -----------------------------------------------------------------------------------------------------------
+# PUT CD AND LS or (EZA) TOGETHER (LITERALLY A NO BRAINER THING TO KEEP 'cd "xyz"' as 'cd "xyz" && ls "xyz"')
+# -----------------------------------------------------------------------------------------------------------
+cdls() {
+        local dir="$1"
+        local dir="${dir:=$HOME}"
+        if [[ -d "$dir" ]]; then
+                cd "$dir" >/dev/null && eza -a --icons # Alternatively you can do ls --color=auto. After removing the 'ls' alias
+        else
+                echo "bash: cdls: $dir: Directory not found"
+        fi
+}
+
 # -----------------------------------------------------
 # START STARSHIP
 # -----------------------------------------------------
@@ -141,3 +172,5 @@ else
         echo "Start Hyprland with command Hyprland"
     fi
 fi
+alias upd='sudo reflector --country India --age 12 --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syu && yay -Syu'
+export EDITOR=nvim
