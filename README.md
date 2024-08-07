@@ -1,5 +1,7 @@
 # ML4W Dotfiles 2.9.2.1
 
+# To get my setup, run setup.sh which will get ml4w's dotfiles installed. And then, from the file manager, copy paste my dotfiles. Present in this repo. 
+
 An advanced configuration of Hyprland for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
 
 [![Screenshot](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png "Screenshot")](![screenshots/screenshot2.png](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png))
