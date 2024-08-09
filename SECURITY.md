@@ -1,0 +1,1 @@
+All issues regarding security shall be fixed asap. As the project is constantly updated, expect newer software and less security vulnerabilities. Alternatives to "unmaintained" software are usually found and replaced.
