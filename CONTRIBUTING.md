@@ -5,4 +5,5 @@ I don't really care about this all that much but,
 ### 3. Frequent updates are usually made, expect your code to change somehow, someday. Probably in new features and such.
 ### 4. I cannot guarantee that these configs will work. As far as I know, they will be made sure to work only on Arch Linux and their derivatives. *
 * Unless in distributions like Garuda Linux where so many custom things are done that they break stuff.
+### 5. Any suggestions to improve CONTRIBUTING.md, CODE_OF_CONDUCT, LICENSE etc and other files. Shall be gladly appreciated and incoorporated. 
 #### Last updated on 12:25 PM 09th of August 2024 IST. Subject to change at times. 
