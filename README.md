@@ -1,6 +1,13 @@
 # ML4W Dotfiles 2.9.2.1
 
 # To get my setup, run setup.sh which will get ml4w's dotfiles installed. And then, from the file manager, copy paste my dotfiles. Present in this repo. 
+# For wallpapers, if not configured by default, launch waypaper from either rofi / terminal and change wallpaper folder to dotfiles/wallpapers in this repo. 
+
+# Stay tuned for more improvements!
+
+# TODO
+## 1. More refinements (Make the desktop more usable and coherent, concise, better and configured as a "all in one" that just works.)
+## 2. Make a new install script created from the ground up. That doesn't require user attention. (Only sudo passwords probably!*) * for package installations. 
 
 An advanced configuration of Hyprland for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
 
