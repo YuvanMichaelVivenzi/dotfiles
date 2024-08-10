@@ -1,30 +1,23 @@
-# ML4W Dotfiles 2.9.2.1
-
 # To get my setup, run setup.sh which will get ml4w's dotfiles installed. And then, from the file manager, copy paste my dotfiles. Present in this repo. 
 # For wallpapers, if not configured by default, launch waypaper from either rofi / terminal and change wallpaper folder to dotfiles/wallpapers in this repo. 
 
 # Stay tuned for more improvements!
 
 # TODO
-## 1. More refinements (Make the desktop more usable and coherent, concise, better and configured as a "all in one" that just works.)
+## 1. More refinements (Make the desktop more usable and coherent, concise, better and configured as a "all in one" that just works.) And turn it into its own new thing. Different from ML4W and turn it into my own dotfiles. 
 ## 2. Make a new install script created from the ground up. That doesn't require user attention. (Only sudo passwords probably!*) * for package installations. 
 
 An advanced configuration of Hyprland for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
 
 [![Screenshot](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png "Screenshot")](![screenshots/screenshot2.png](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png))
 
-The ML4W Dotfiles are available as 
-
-- main release (Official release): [https://gitlab.com/stephan-raabe/dotfiles](https://gitlab.com/stephan-raabe/dotfiles)
-- rolling release (Development release): [https://gitlab.com/stephan-raabe/dotfiles/-/tree/dev](https://gitlab.com/stephan-raabe/dotfiles/-/tree/dev)
-
-YouTube Video [https://youtu.be/HMxHUvN6VGo](https://youtu.be/GHYk1Iv4GkY)
+These dotfiles are available to clone, use personally or professionally. I don't care, make your linux rig as good as you want it to be. Probably would like my name in credits. (Not required.) (Just to keep me motivated on this project)
 
 ## Installation
 
-The installation should work on all Arch Linux based distributions. [You can find more information here](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/home).
+The installation should work on all Arch Linux based distributions. (NOT GUARANTEED TO WORK ON ARCH LINUX DERIVATIVES) * ONLY VANILLA ARCH. 
 
-The easiest way is to use the setup.sh script. The script will download all files from GitLab and start the installation automatically.
+The easiest way is to use the setup.sh script. The script will download all files from Github and start the installation automatically.
 
 Just copy/enter the following command into your terminal.
 
@@ -32,49 +25,18 @@ Just copy/enter the following command into your terminal.
 bash <(curl -s https://gitlab.com/stephan-raabe/dotfiles/-/raw/main/setup.sh)
 ```
 
+### Caution when getting keyboard layout selected, you may get German keyboard layout like I did the first time I tried this. Please reconfigure your keyboard in the script and proceed during installation. 
+
 > PLEASE NOTE: Every Linux distribution, setup and personal configuration can be different. Therefore, I cannot guarantee that the ML4W Dotfiles will work everywhere. Installation at your own risk.
-
-## Documentation (Wiki)
-
-You can find the complete documentation of the ML4W Dotfiles in the Wiki. <b>[Open the Wiki here](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/home)</b>
-
-## Contributing
-
-Thanks for using the ML4W Dotfiles on your system. If you find a problem or a bug, please [report your issue on this page](https://gitlab.com/stephan-raabe/dotfiles/-/issues/?sort=created_date&state=opened).
-
-You can also visit the [ML4W Discord Server](https://discord.gg/c4fJK7Za3g) to start a discussion with other users.
 
 ## Screenshots
 
 [![Screenshot](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/b8dc6a841b6b04fe0b2d380377117a50/screenshot-20240627-113733.png "Screenshot")](![screenshots/screenshot1.png](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/b8dc6a841b6b04fe0b2d380377117a50/screenshot-20240627-113733.png))
 
-## Wallpaper repository
+## Wallpapers
 
-You can find my wallpaper collection in the repository https://gitlab.com/stephan-raabe/wallpaper
+All wallpapers that I use are provided in the "wallpapers" directory of this repo. 
 
-## Special Thanks
+## Thanks to
+### ML4W (Stephan Raabe) for his dotfiles and his great service to linux customization. And to everyone else who helped him. 
 
-THANK YOU very much for all your support, contributions and ideas:
-
-- Diana Ward: https://github.com/dianaw353
-- Don Williams: https://github.com/dwilliam62
-- Teodor Orzechowski: https://gitlab.com/sq6gtt
-- Jamie Deppeler: https://gitlab.com/bknight2k
-- Yingjie Wang: https://gitlab.com/GaugeAndGravity
-- Daniel Gerber: https://gitlab.com/dan.john.gerber
-- Sarthak Siddhpura: https://gitlab.com/Codesmith28
-- https://gitlab.com/muee
-
-and many more...
-
-Thanks to all YouTube subscribers for all your great feedback.
-
-## Inspirations
-
-The following projects have inspired me:
-
-- https://github.com/prasanthrangan/hyprdots
-- https://github.com/sudo-harun/dotfiles
-- https://github.com/dianaw353/hyprland-configuration-rootfs
-
-and many more...
