@@ -246,7 +246,7 @@
 
     // CPU
     "cpu": {
-        "format": "/ C {usage}% ",
+        "format": " C {usage}% ",
         "on-click": "alacritty -e htop"
     },
 
@@ -256,13 +256,13 @@
         "on-click": "alacritty -e htop"
     },
 
-    // Harddisc space used
+    // Hard Disk space used
     "disk": {
         "interval": 30,
         "format": "D {percentage_used}% ",
         "path": "/",
         "on-click": "alacritty -e htop"
-    }, 
+    },     
 
     "hyprland/language": {
         "format": "/ K {short}"
@@ -277,11 +277,10 @@
             "transition-left-to-right": false
         },        
         "modules": [
-            "custom/system",
-            "disk",
+	    "custom/system",
             "cpu",
             "memory",
-            "hyprland/language"
+	    "custom/drivetemp"
         ]
     },
     
