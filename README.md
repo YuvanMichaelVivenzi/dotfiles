@@ -4,12 +4,16 @@
 # Required for you to install hyprexpo and hyprtrails as well (install script will be created soon to automate this.)
 
 # Stay tuned for more improvements!
-
+, 
 # TODO
 ## 1. More refinements (Make the desktop more usable and coherent, concise, better and configured as a "all in one" that just works.) And turn it into its own new thing. Different from ML4W and turn it into my own dotfiles. 
 ## 2. Make a new install script created from the ground up. That doesn't require user attention. (Only sudo passwords probably!*) * for package installations. 
 
 An advanced configuration of Hyprland for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
+
+#### The images below are slightly outdated. But should give a rough idea of how they look. 
+#### The images are of ml4w's dotfiles. Mine are slightly different
+#### I'll update the images once I think I'm ready to showcase my fully customized product. 
 
 [![Screenshot](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png "Screenshot")](![screenshots/screenshot2.png](https://gitlab.com/stephan-raabe/dotfiles/-/wikis/uploads/5402287acd05825a9581e8bb261c465c/image.png))
 
