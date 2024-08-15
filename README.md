@@ -1,6 +1,8 @@
 # To get my setup, run setup.sh which will get ml4w's dotfiles installed. And then, from the file manager, copy paste my dotfiles. Present in this repo. 
 # For wallpapers, if not configured by default, launch waypaper from either rofi / terminal and change wallpaper folder to dotfiles/wallpapers in this repo. 
 
+# Have a terminal ready to make all scripts in dotfiles executable. again, install script will be created soon.
+
 # Required for you to install hyprexpo and hyprtrails as well (install script will be created soon to automate this.)
 
 # Stay tuned for more improvements!
