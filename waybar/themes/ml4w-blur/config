@@ -32,7 +32,7 @@
         //"wlr/taskbar",
         //"group/quicklinks",
         "hyprland/workspaces",
-        "custom/music",
+        "group/music",
 	//"custom/audiovisualizer",
         "custom/empty"
     ],
@@ -44,11 +44,11 @@
 
     // Modules Right    
     "modules-right": [
-        "custom/updates",
-        "pulseaudio",
+        //"custom/updates",
+        //"pulseaudio",
         //"bluetooth",
         //"battery", 
-        "network",
+        //"network",
         "group/hardware",
         //"custom/cliphist",
         //"custom/hypridle",

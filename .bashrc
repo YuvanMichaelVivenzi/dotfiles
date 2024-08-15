@@ -6,7 +6,7 @@
 # 
 # by Yuvan Michael Vivenzi (YMV) (2024)
 # -----------------------------------------------------
-# ~/.bashrc
+# ~/dotfiles/.bashrc
 # -----------------------------------------------------
 
 # If not running interactively, don't do anything
@@ -25,8 +25,8 @@ alias uninstall='sudo pacman -R '
 alias remove='sudo pacman -R '
 alias uninstall-aur='yay -R '
 alias remove-aur='yay -R '
-alias upd='sudo pacman -Syu && yay -Syu'
-alias update='sudo pacman -Syu && yay -Syu'
+alias upd='sudo pacman -Syu && yay -Syu && yay -Syu --devel' # Adding the --devel to update Hyprland packages to the latest git
+alias update='sudo pacman -Syu && yay -Syu && yay -Syu --devel' # Bleeding edge :D
 alias search='sudo pacman -Ss '
 alias search-aur='yay -Ss '
 alias get='git clone '
@@ -34,6 +34,20 @@ alias musicinfo='playerctl metadata --format "{{title}} - {{artist}}"'
 alias ytspamblock='./ytspamblockpy.sh'
 alias netcheck='ping google.com'
 alias train='sl '
+alias keys='nvim ~/dotfiles/hypr/conf/keybindings/default.conf'
+alias autostart='nvim ~/dotfiles/hypr/conf/autostart.conf'
+alias wbm='nvim ~/dotfiles/waybar/modules.json'
+alias wbw='nvim ~/dotfiles/waybar/themes/ml4w-blur/config'
+alias wbws='nvim ~/dotfiles/waybar/themes/ml4w-blur/style.css'
+alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
+alias orphan='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash' # PRANK!
+alias killvim='killall nvim && pkill nvim && pkill neovim && killall neovim && pkill vim && killall vim'
+alias gupd='cdls dotfiles/ && ./syncupdate.sh' # Update my dotfiles on github
 
 # -----------------------------------------------------
 # ALIASES
@@ -162,7 +176,7 @@ cat ~/.cache/wal/sequences
 # Fastfetch if on wm
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/13
+    fastfetch --config examples/22 && cd
 else
     echo
     if [ -f /bin/qtile ]; then
@@ -172,5 +186,5 @@ else
         echo "Start Hyprland with command Hyprland"
     fi
 fi
-alias upd='sudo reflector --country India --age 12 --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syu && yay -Syu'
+
 export EDITOR=nvim

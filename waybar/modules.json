@@ -90,7 +90,7 @@
 
     // Updates Count
     "custom/updates": {
-        "format": "   {}",
+        "format": "/    {} /",
         "escape": true,
         "return-type": "json",       
         "exec": "~/dotfiles/scripts/updates.sh",
@@ -98,10 +98,31 @@
         "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/scripts/installupdates.sh",
         "on-click-right": "~/dotfiles/.settings/software.sh"
     },
+    // Group Music
+    "group/music": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": true
+        },        
+        "modules": [
+	    "custom/musicicon",
+	    "custom/music"
+        ]
+    },
+
+
+    // Custom Music Icon
+    "custom/musicicon": {
+	 "format": "  ▶ ",
+        "tooltip": false
+    },
+
 
     // Music
     "custom/music": {
-        "format": "𝅘𝅥𝅮    {}",
+        "format": " {}",
         "return-type": "bash",
         "exec": "playerctl metadata --format '{{title}} - {{artist}}'",
         "restart-interval": 1,
@@ -280,7 +301,9 @@
 	    "custom/system",
             "cpu",
             "memory",
-	    "custom/drivetemp"
+	    "custom/updates",
+	    "pulseaudio",
+	    "network"
         ]
     },
     
@@ -311,14 +334,14 @@
 
     // Network
     "network": {
-        "format": "{ifname}",
-        "format-wifi": "   {signalStrength}%",
-        "format-ethernet": "  {ifname}",
-        "format-disconnected": "Disconnected",
-        "tooltip-format": " {ifname} via {gwaddri}",
-        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
-        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
-        "tooltip-format-disconnected": "Disconnected",
+        "format": "/ {ifname} /",
+        "format-wifi": "/    {signalStrength}% /",
+        "format-ethernet": "/   {ifname} /",
+        "format-disconnected": "/ Disconnected /",
+        "tooltip-format": "/  {ifname} via {gwaddri} /",
+        "tooltip-format-wifi": "/   {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits} /",
+        "tooltip-format-ethernet": "/  {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits} /",
+        "tooltip-format-disconnected": "/ Disconnected /",
         "max-length": 50,
         "on-click": "alacritty --class dotfiles-floating -e nmtui",
         "on-click-right": "~/dotfiles/.settings/networkmanager.sh"
