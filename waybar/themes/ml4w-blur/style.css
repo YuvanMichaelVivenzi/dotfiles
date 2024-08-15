@@ -22,7 +22,7 @@
 * {
     font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     border: none;
-    border-radius: 0px;
+    border-radius: 100px;
 }
 
 window#waybar {
@@ -41,7 +41,7 @@ window#waybar {
     background: @workspacesbackground1;
     margin: 5px 6px 5px 5px;
     padding: 0px 1px;
-    border-radius: 50px;
+    border-radius: 100px;
     border: 0px;
     font-weight: bold;
     font-style: normal;
@@ -53,7 +53,7 @@ window#waybar {
 #workspaces button {
     padding: 0px 5px;
     margin: 4px 3px;
-    border-radius: 50px;
+    border-radius: 100px;
     border: 0px;
     color: @textcolor1;
     background-color: @workspacesbackground2;
@@ -64,7 +64,7 @@ window#waybar {
 #workspaces button.active {
     color: @textcolor1;
     background: @workspacesbackground2;
-    border-radius: 50px;
+    border-radius: 100px;
     min-width: 30px;
     transition: all 0.3s ease-in-out;
     opacity:1.0;
@@ -73,7 +73,7 @@ window#waybar {
 #workspaces button:hover {
     color: @textcolor1;
     background: @workspacesbackground2;
-    border-radius: 50px;
+    border-radius: 100px;
     opacity:0.7;
 }
 
@@ -82,7 +82,7 @@ window#waybar {
  * ----------------------------------------------------- */
 
 tooltip {
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: @backgroundlight;
     opacity:0.8;
     padding:20px;
@@ -101,7 +101,7 @@ tooltip label {
     background: @backgroundlight;
     margin: 8px 15px 8px 0px;
     padding: 2px 10px 0px 10px;
-    border-radius: 50px;
+    border-radius: 100px;
     color:@textcolor2;
     font-size:16px;
     font-weight:normal;
@@ -120,7 +120,7 @@ window#waybar.empty #window {
     background: @backgroundlight;
     margin: 6px 15px 6px 0px;
     padding:0px;
-    border-radius: 50px;
+    border-radius: 100px;
     font-weight: normal;
     font-style: normal;
     opacity:0.8;
@@ -129,7 +129,7 @@ window#waybar.empty #window {
 
 #taskbar button {
     margin:0;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 0px 5px 0px 5px;
 }
 
@@ -265,7 +265,7 @@ window#waybar.empty #window {
     background-color: @backgrounddark;
     font-size: 16px;
     color: @textcolor1;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 0px 10px 0px 10px;
     margin: 8px 14px 8px 14px;
     opacity:0.8;
@@ -297,7 +297,7 @@ window#waybar.empty #window {
 	background-color: @backgroundlight;
 	font-size: 16px;
 	color: @textcolor2;
-	border-radius: 50px;
+	border-radius: 100px;
 	padding: 2px 10px 0px 10px;
 	margin: 8px 15px 8px 0px;
 	opacity:0.8;
@@ -311,7 +311,7 @@ window#waybar.empty #window {
     background-color: @backgroundlight;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 2px 10px 0px 10px;
     margin: 8px 15px 8px 0px;
     opacity:0.8;
@@ -369,7 +369,7 @@ window#waybar.empty #window {
     background-color: @backgrounddark;
     font-size: 16px;
     color: @textcolor1;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 1px 10px 0px 10px;
     margin: 8px 15px 8px 0px;
     opacity:0.8;
@@ -384,7 +384,7 @@ window#waybar.empty #window {
     background-color: @backgroundlight;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 2px 10px 0px 10px;
     margin: 8px 15px 8px 0px;
     opacity:0.8;
@@ -404,7 +404,7 @@ window#waybar.empty #window {
     background-color: @backgroundlight;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 2px 15px 0px 10px;
     margin: 8px 15px 8px 0px;
     opacity:0.8;
