@@ -7,8 +7,7 @@ echo ""
 echo ""
 echo ""
 sleep 3
-echo "Starting necessary processes"
-sleep 3
+gum spin --spinner dot --title "Starting nescessary processes..." -- sleep 3
 hyprpm update && hyprpm reload
 sleep 3
 sudo pacman -Syu && yay -Syu && yay -Syu --devel
@@ -27,6 +26,8 @@ else
     echo ":: Reboot skipped"
 fi
 echo ""
+
+echo "Script finished successfully. :D"
 
 sleep 3
 

@@ -267,7 +267,7 @@
 
     // CPU
     "cpu": {
-        "format": " C {usage}% ",
+        "format": " C {usage}% / ",
         "on-click": "alacritty -e htop"
     },
 
@@ -300,6 +300,7 @@
         "modules": [
 	    "custom/system",
             "cpu",
+	    "disk",
             "memory",
 	    "custom/updates",
 	    "pulseaudio",
