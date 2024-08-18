@@ -6,7 +6,7 @@
 * Like ML4W, there are other dotfiles that are probably bound to end up in maintainance mode.
 * These "maintainence mode" things are usually stuff that I don't use anymore, but would like to keep updated. And probably switch to these every once a while when I get bored. These will typically be kept sure to work with the most recent versions as of now. I would encourage reporting issues and would love to get it fixed asap.
 * I'm looking at some VM options and bare metal ones to maintain and check multiple versions of these dotfiles on seperate Arch installations. As an "all in one" like I tried likes to get stuff confusing. You can see the mess in the new "dev" branch. Anyways Stay Tuned!
-* Some o the dotfiles I'm lookin' at,
+* Some of the dotfiles I'm lookin' at,
 * ML4W
 * HyDE
 * sane 1090x
