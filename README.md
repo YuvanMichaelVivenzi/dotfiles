@@ -1,3 +1,17 @@
+# Important notice, this setup is now in maintainance mode. 
+* I have switched over to HyDE dotfiles which look quite good. I usually make dotfile changes like these every once a while. I'll maintain seperate branches like this.
+* The plan right now is to make an all in one dotfiles thing that I like. Having the best of both worlds. That's what I do!
+* If I come across more dotfiles that I think will be a good addition. I'll keep updating.
+* My own customizations made in seperate rices will be kept in maintainence mode.
+* Like ML4W, there are other dotfiles that are probably bound to end up in maintainance mode.
+* These "maintainence mode" things are usually stuff that I don't use anymore, but would like to keep updated. And probably switch to these every once a while when I get bored. These will typically be kept sure to work with the most recent versions as of now. I would encourage reporting issues and would love to get it fixed asap.
+* I'm looking at some VM options and bare metal ones to maintain and check multiple versions of these dotfiles on seperate Arch installations. As an "all in one" like I tried likes to get stuff confusing. You can see the mess in the new "dev" branch. Anyways Stay Tuned!
+* Some o the dotfiles I'm lookin' at,
+* ML4W
+* HyDE
+* sane 1090x
+* The Linux Cast
+* Others will be added when I come across them. 
 # To get my setup, run setup.sh which will get ml4w's dotfiles installed. And then, from the file manager, copy paste my dotfiles. Present in this repo. 
 # For wallpapers, if not configured by default, launch waypaper from either rofi / terminal and change wallpaper folder to dotfiles/wallpapers in this repo. 
 
