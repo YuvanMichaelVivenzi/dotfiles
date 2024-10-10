@@ -24,7 +24,9 @@
 
 # Installation
 * Install regular ml4w from https://github.com/mylinuxforwork/dotfiles
+* Have a terminal ready
 * Copy and paste "hypr" and "waybar" folders.
+* Make all scripts executable
 * Reboot
 
 # Stay tuned for more improvements!
