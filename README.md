@@ -11,7 +11,7 @@
 * My own customizations made in seperate rices will be kept in maintainence mode.
 * Like ML4W, there are other dotfiles that are probably bound to end up in maintainance mode.
 * These "maintainence mode" things are usually stuff that I don't use anymore, but would like to keep updated. And probably switch to these every once a while when I get bored. These will typically be kept sure to work with the most recent versions as of now. I would encourage reporting issues and would love to get it fixed asap.
-* Maintainance mode setups will recieve least of my attention, meaning it's stable, everything is expected to work and my interference would not be required as long as the upstrean ML4W repo makes breaking changes. Again, if you experience any issues, literally anyrhing at all, please don't stop yourself from clicking that "issues" tab.
+* Maintainance mode setups will recieve least of my attention, meaning it's stable, everything is expected to work and my interference would not be required as long as the upstrean ML4W repo doesn't make breaking changes. Again, if you experience any issues, literally anyrhing at all, please don't stop yourself from clicking that "issues" tab.
 * I'm looking at some options to maintain and check multiple versions of these dotfiles. Anyways Stay Tuned!
 * Some of the dotfiles I'm looking at,
 * ML4W
@@ -25,9 +25,9 @@
 # Installation
 * Install regular ml4w from https://github.com/mylinuxforwork/dotfiles
 * Have a terminal ready
-* Copy and paste "hypr" and "waybar" folders.
+* Copy and paste "hypr" and "waybar" folders from this repo into their respective locations. *Beware of breaking symlinks!
 * Make all scripts executable
-* Reboot
+* Reboot!
 
 # Stay tuned for more improvements!
 
