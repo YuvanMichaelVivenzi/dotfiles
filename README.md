@@ -1,10 +1,10 @@
 # Check my new dotfiles on HyDE-dotfiles* 
 * (*not a HyDE theme, just my own configuration with little scripts I made)
 # TODO (Global [* including HyDE and ML4W])
-* New wallpapers repo with updated wallpapers
-* Unified install script (* One script to install either ML4W or HyDE)
-* New branch with HyDE customizations. Currently present in https://github.com/YuvanMichaelVivenzi/HyDE-dotfiles (Will be integrated into this repo as a seperate branch.)
-* New dock with changing themes for HyDE and pywal colors for ML4W.
+* New wallpapers repo with updated wallpapers >> (Will be done in the following days, Around 27-10-2024)
+* Install script (* A script for this repo to install HyDE, ML4W will be a new repo with it's own install script.) >> Will take a while.
+* New branch with HyDE customizations. Currently present in https://github.com/YuvanMichaelVivenzi/HyDE-dotfiles (Will be integrated into this repo as the 'MAIN' branch. ML4W will be a new repo.) >> (Expected around next month.)
+* New dock with changing themes for HyDE and pywal colors for ML4W. >> Will take a while. 
 # Important notice, ML4W-YMV setup is now in maintainance mode. 
 * I have switched over to HyDE dotfiles which look quite good. I usually make dotfile changes like these every once a while. I'll maintain seperate branches like this.
 * If I come across more dotfiles that I think will be a good addition. I'll keep updating.
